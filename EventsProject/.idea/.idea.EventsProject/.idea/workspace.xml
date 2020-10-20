@@ -22,6 +22,10 @@
     <list default="true" id="e4ef7ad6-b148-447c-84ff-ef86d19e9741" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Scripts/InventoryItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Scripts/InventoryItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Scripts/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Space Kit/Scripts/Sell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Space Kit/Scripts/Sell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InventoryScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InventoryScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/2D Space Kit/Scripts/Sell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LegacyInputController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/2D Space Kit/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SpriteStorage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/2D Space Kit/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,10 +53,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LegacyInputController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/2D Space Kit/Scripts/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Storage.cs" />
-        <option value="$PROJECT_DIR$/Assets/2D Space Kit/Scripts/InventoryItem.cs" />
         <option value="$PROJECT_DIR$/Assets/SpriteStorage.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/2D Space Kit/Scripts/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/2D Space Kit/Scripts/InventoryItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/2D Space Kit/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/2D Space Kit/Scripts/Sell.cs" />
       </list>
     </option>
@@ -97,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603179695085</updated>
       <workItem from="1603179712158" duration="22000" />
-      <workItem from="1603179743190" duration="10262000" />
+      <workItem from="1603179743190" duration="12991000" />
     </task>
     <servers />
   </component>

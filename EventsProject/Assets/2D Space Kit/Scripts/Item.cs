@@ -7,7 +7,6 @@ public class Item
 {
     public int cost;
     public Type Type;
-    public Owner Owner;
 }
 
 public enum Owner

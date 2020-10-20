@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -12,6 +13,7 @@ public class InventoryItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEn
     private RectTransform _rectTransform;
     private CanvasGroup _canvasGroup;
     private Sell parent = null;
+    private Vector3 startDragPosition;
 
     private void Start()
     {
@@ -24,6 +26,7 @@ public class InventoryItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEn
     public void OnBeginDrag(PointerEventData eventData)
     {
         _canvasGroup.blocksRaycasts = false;
+        startDragPosition = transform.position;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -33,7 +36,25 @@ public class InventoryItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEn
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        _canvasGroup.blocksRaycasts = true;
+        GameObject currentRaycast = eventData.pointerCurrentRaycast.gameObject;
+        if (currentRaycast == null)
+        {
+            MoveBack();
+        }
+        else if (currentRaycast.GetComponent<Sell>() == null)
+        {
+            MoveBack();
+        }
+        else
+        {
+            _canvasGroup.blocksRaycasts = true;
+        }
+    }
+
+    public void MoveBack()
+    {
+        transform.DOMove(startDragPosition, 0.5f).SetEase(Ease.Linear)
+            .OnComplete(() => _canvasGroup.blocksRaycasts = true);
     }
 
     public Sell GetParent()
@@ -44,5 +65,10 @@ public class InventoryItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEn
     public void SetParent(Sell _parent)
     {
         parent = _parent;
+    }
+
+    public Item GetItem()
+    {
+        return item;
     }
 }

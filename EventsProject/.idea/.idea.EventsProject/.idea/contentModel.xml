@@ -36,6 +36,7 @@
             <e p="Item.cs" t="Include" />
             <e p="ParallaxLayer.cs" t="Include" />
             <e p="PlayerControlledTurret.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
             <e p="Projectile.cs" t="Include" />
             <e p="PSDestroy.cs" t="Include" />
             <e p="Sell.cs" t="Include" />
