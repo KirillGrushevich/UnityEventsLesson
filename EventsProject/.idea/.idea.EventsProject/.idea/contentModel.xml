@@ -32,10 +32,13 @@
             <e p="Crosshair.cs" t="Include" />
             <e p="CustomPointer.cs" t="Include" />
             <e p="ExampleShipControl.cs" t="Include" />
+            <e p="InventoryItem.cs" t="Include" />
+            <e p="Item.cs" t="Include" />
             <e p="ParallaxLayer.cs" t="Include" />
             <e p="PlayerControlledTurret.cs" t="Include" />
             <e p="Projectile.cs" t="Include" />
             <e p="PSDestroy.cs" t="Include" />
+            <e p="Sell.cs" t="Include" />
             <e p="ShipCamera.cs" t="Include" />
             <e p="WARNING.txt" t="Include" />
           </e>
@@ -83,6 +86,7 @@
             </e>
           </e>
         </e>
+        <e p="SpriteStorage.cs" t="Include" />
       </e>
       <e p="EventsProject.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
