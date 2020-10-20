@@ -78,6 +78,9 @@
      <Compile Include="Assets\PlayerInputActions.cs" />
      <Compile Include="Assets\Scripts\InputController.cs" />
      <Compile Include="Assets\Scripts\MouseEvents.cs" />
+     <Compile Include="Assets\Scripts\SallerQuest\SallerManager.cs" />
+     <Compile Include="Assets\Scripts\SallerQuest\Player.cs" />
+     <Compile Include="Assets\Scripts\SallerQuest\Saller.cs" />
      <None Include="Assets\2D Space Kit\Backgrounds\Background Tip.txt" />
      <None Include="Assets\SimplePixelUI\fonts\Font2\license.txt" />
      <None Include="Assets\2D Space Kit\Readme.txt" />

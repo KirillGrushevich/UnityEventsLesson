@@ -70,6 +70,11 @@
             <e p="Planet.cs" t="Include" />
             <e p="PlanetGameController.cs" t="Include" />
           </e>
+          <e p="SallerQuest" t="Include">
+            <e p="Player.cs" t="Include" />
+            <e p="Saller.cs" t="Include" />
+            <e p="SallerManager.cs" t="Include" />
+          </e>
           <e p="SpaceBattle" t="Include">
             <e p="Missile.cs" t="Include" />
             <e p="PlayerShip.cs" t="Include" />
