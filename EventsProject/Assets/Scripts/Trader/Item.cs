@@ -6,15 +6,18 @@ using UnityEngine.EventSystems;
 using DG.Tweening;
 using UnityEngine.UI;
 
-public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler, IDragHandler
+public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public Sprite emptySprite;
     public Sprite currentSprite;
     public bool isEmpty = true;
+    public int Cost = default;
 
     [SerializeField] private SpriteShop spriteShop;
     
-    public event Action<Item> OnDrag;
+    public event Action<Item> OnDragEvent;
+    public event Action<Item> OnStartDragEvent;
+    public event Action<Item> OnEndDragEvent;
 
     private void Awake()
     {
@@ -32,22 +35,24 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     {
         transform.DOScale(Vector3.one, 0.3f);
     }
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-
-    }
-
-    public void OnPointerUp(PointerEventData eventData)
-    {
-        
-    }
-
     void IDragHandler.OnDrag(PointerEventData eventData)
     {
         if (!isEmpty)
         {
-            OnDrag?.Invoke(this);
+            OnDragEvent?.Invoke(this);
         }
+    }
+
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        if (!isEmpty)
+        {
+            OnStartDragEvent?.Invoke(this);
+        }
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        OnEndDragEvent?.Invoke(this);
     }
 }

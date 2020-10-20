@@ -17,7 +17,7 @@ public class TradeController : MonoBehaviour
     {
         foreach (var item in ItemsArray)
         {
-            item.OnDrag += Drag;
+            item.OnDragEvent += DragEvent;
         }
     }
 
@@ -25,18 +25,27 @@ public class TradeController : MonoBehaviour
     {
         foreach (var item in ItemsArray)
         {
-            item.OnDrag -= Drag;
+            item.OnDragEvent -= DragEvent;
         }
     }
 
-    public void Drag (Item draggedItem)
+    public void DragEvent (Item draggedItem)
     {
-        Debug.Log("dragging");
         _draggedItem = draggedItem;
         var pos = camera.ScreenToWorldPoint(Input.mousePosition);
         pos.z = 0f;
         pos += offset;
         
         _draggedItem.transform.position = pos;
+    }
+
+    public void StartDrag(Item draggedItem)
+    {
+        
+    }
+
+    public void EndDrag(Item draggedItem)
+    {
+        
     }
 }

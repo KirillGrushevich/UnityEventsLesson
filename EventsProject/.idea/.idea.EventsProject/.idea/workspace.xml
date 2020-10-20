@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21f39364-56b2-47f9-a577-af79de706255" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trader/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trader/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trader/TradeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trader/TradeController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603178971207</updated>
-      <workItem from="1603178976098" duration="15655000" />
+      <workItem from="1603178976098" duration="17000000" />
     </task>
     <servers />
   </component>
@@ -118,10 +119,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="514" y="148" key="RiderGenerateDialog" timestamp="1603193037097">
+    <state x="514" y="148" key="RiderGenerateDialog" timestamp="1603199019661">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="514" y="148" key="RiderGenerateDialog/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1603193037097" />
+    <state x="514" y="148" key="RiderGenerateDialog/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1603199019661" />
     <state x="514" y="156" key="RiderGenerateDialog/0.23.1440.877/1440.23.1920.984@0.23.1440.877" timestamp="1603179846564" />
     <state x="514" y="156" key="RiderGenerateDialog/0.23.1440.877/1440.23.1920.986@0.23.1440.877" timestamp="1603179036788" />
   </component>
