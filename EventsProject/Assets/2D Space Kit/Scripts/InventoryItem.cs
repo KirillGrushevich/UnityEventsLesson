@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class InventoryItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
+public class InventoryItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] private Item item;
     private Image _image;
@@ -70,5 +70,15 @@ public class InventoryItem : MonoBehaviour, IDragHandler, IBeginDragHandler, IEn
     public Item GetItem()
     {
         return item;
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        transform.DOScale(Vector3.one * 1.3f, 0.3f);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        transform.DOScale(Vector3.one, 0.3f);
     }
 }
