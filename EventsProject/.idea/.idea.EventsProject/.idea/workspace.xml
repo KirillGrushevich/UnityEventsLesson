@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21f39364-56b2-47f9-a577-af79de706255" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +35,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetClicker/Planet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetClicker/PlanetGameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Trader/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LegacyInputController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Trader/SpriteShop.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,6 +48,9 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/MouseEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetClicker/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetClicker/PlanetGameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Trader/SpriteShop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Trader/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Trader/TradeController.cs" />
       </list>
     </option>
   </component>
@@ -93,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603178971207</updated>
-      <workItem from="1603178976098" duration="10470000" />
+      <workItem from="1603178976098" duration="15655000" />
     </task>
     <servers />
   </component>
@@ -117,9 +118,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="514" y="156" key="RiderGenerateDialog" timestamp="1603179846564">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="514" y="148" key="RiderGenerateDialog" timestamp="1603193037097">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="514" y="148" key="RiderGenerateDialog/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1603193037097" />
     <state x="514" y="156" key="RiderGenerateDialog/0.23.1440.877/1440.23.1920.984@0.23.1440.877" timestamp="1603179846564" />
     <state x="514" y="156" key="RiderGenerateDialog/0.23.1440.877/1440.23.1920.986@0.23.1440.877" timestamp="1603179036788" />
   </component>
