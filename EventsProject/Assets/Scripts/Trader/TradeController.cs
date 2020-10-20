@@ -11,6 +11,7 @@ public class TradeController : MonoBehaviour
     public int TraderMoney = 100;
     private Item _draggedItem;
     private Vector3 offset;
+    private RectTransform startingPosition;
     [SerializeField] Camera camera;
 
     private void OnEnable()
@@ -18,6 +19,8 @@ public class TradeController : MonoBehaviour
         foreach (var item in ItemsArray)
         {
             item.OnDragEvent += DragEvent;
+            item.OnStartDragEvent += StartDrag;
+            item.OnEndDragEvent += EndDrag;
         }
     }
 
@@ -26,12 +29,13 @@ public class TradeController : MonoBehaviour
         foreach (var item in ItemsArray)
         {
             item.OnDragEvent -= DragEvent;
+            item.OnStartDragEvent -= StartDrag;
+            item.OnEndDragEvent -= EndDrag;
         }
     }
 
     public void DragEvent (Item draggedItem)
     {
-        _draggedItem = draggedItem;
         var pos = camera.ScreenToWorldPoint(Input.mousePosition);
         pos.z = 0f;
         pos += offset;
@@ -41,7 +45,7 @@ public class TradeController : MonoBehaviour
 
     public void StartDrag(Item draggedItem)
     {
-        
+        _draggedItem = draggedItem;
     }
 
     public void EndDrag(Item draggedItem)

@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21f39364-56b2-47f9-a577-af79de706255" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trader/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trader/Item.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trader/TradeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trader/TradeController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603178971207</updated>
-      <workItem from="1603178976098" duration="17000000" />
+      <workItem from="1603178976098" duration="17322000" />
     </task>
     <servers />
   </component>
