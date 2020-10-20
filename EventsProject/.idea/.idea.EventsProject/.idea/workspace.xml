@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a80110-20e0-4877-8d70-834a0fe11136" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Quest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Quest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SallerQuest/Saller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SallerQuest/Saller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SallerQuest/SallerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SallerQuest/SallerManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/EditorOnlyScriptingSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorOnlyScriptingSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
@@ -144,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603174955386</updated>
-      <workItem from="1603174967517" duration="17309000" />
+      <workItem from="1603174967517" duration="18126000" />
     </task>
     <servers />
   </component>

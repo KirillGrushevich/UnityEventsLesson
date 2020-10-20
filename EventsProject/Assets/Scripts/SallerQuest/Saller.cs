@@ -31,6 +31,7 @@ public class Saller : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
         var pos = camera.ScreenToWorldPoint(Input.mousePosition);
         _defaultPos = pos;
         pos.z = 0f;
+        Debug.Log(pos);
         transform.position = pos;
     }
 
@@ -47,7 +48,7 @@ public class Saller : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
         {
             case "Player":
             {
-                if (_manager.Buy(this, _name))
+                if (pos.x > 0 && _manager.Buy(this, _name))
                 {
                     Destroy(gameObject);
                 }
@@ -56,7 +57,7 @@ public class Saller : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
             }
             case "Saller":
             {
-                if (_manager.Buy(this, _name))
+                if (pos.x < 0 && _manager.Buy(this, _name))
                 {
                     Destroy(gameObject);
                 }

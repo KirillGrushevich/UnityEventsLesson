@@ -69,7 +69,6 @@ public class SallerManager : MonoBehaviour
                     _saller.text = $"Saller: {_sallerGold}";
                     return true;
                 }
-
                 break;
             }
         }
