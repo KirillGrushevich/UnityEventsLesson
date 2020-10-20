@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TradeController : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class TradeController : MonoBehaviour
     public int TraderMoney = 100;
     private Item _draggedItem;
     private Vector3 offset;
-    private RectTransform startingPosition;
+    private Vector3 startingPosition;
     [SerializeField] Camera camera;
 
     private void OnEnable()
@@ -46,10 +47,11 @@ public class TradeController : MonoBehaviour
     public void StartDrag(Item draggedItem)
     {
         _draggedItem = draggedItem;
+        startingPosition = _draggedItem.transform.position;
     }
 
     public void EndDrag(Item draggedItem)
     {
-        
+        _draggedItem.transform.position = startingPosition;
     }
 }
