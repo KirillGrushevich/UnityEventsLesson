@@ -420,7 +420,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6f6c43de5be736845adc07aa0f6d4d0f, type: 3}
   gameCircleTime: 5
   planetsCount: 24
-  basePlanet: {fileID: 0}
+  basePlanet: {fileID: 948790041}
 --- !u!1 &948790039
 GameObject:
   m_ObjectHideFlags: 0
