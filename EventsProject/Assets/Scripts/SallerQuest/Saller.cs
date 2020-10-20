@@ -29,9 +29,8 @@ public class Saller : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, 
     public void Drag()
     {
         var pos = camera.ScreenToWorldPoint(Input.mousePosition);
-        _defaultPos = pos;
         pos.z = 0f;
-        Debug.Log(pos);
+        _defaultPos = pos;
         transform.position = pos;
     }
 
