@@ -26,7 +26,15 @@ namespace Inventory
             item.SetParent(transform);
             cellItem = item.gameObject;
             isCell = true;
-            
+            if (GetInventoryItemId() == inventoryId)
+            {
+                SetInventoryItemId(inventoryId);
+            }
+            else
+            {
+                
+            }
+
             return true;
         }
 
@@ -37,11 +45,15 @@ namespace Inventory
           
         }
 
-        public void SetInventoryItemId(int id)
+        private void SetInventoryItemId(int id)
         {
             cellItem.GetComponent<Item>().ItemInf.inventoryId = id;
         }
-    
+        private int GetInventoryItemId()
+        {
+            return cellItem.GetComponent<Item>().ItemInf.inventoryId ;
+        }
+        
     
     }
 }
