@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_EventsProject.1427616812.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="2D Space Kit" t="Include">
+          <e p="Background Elements" t="Include">
+            <e p="Planets" t="Include">
+              <e p="Planet Masks" t="Include">
+                <e p="Note.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Stars" t="Include">
+              <e p="Recolor Us!.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Backgrounds" t="Include">
+            <e p="Background Tip.txt" t="Include" />
+            <e p="Fantasy Purple 2048" t="Include">
+              <e p="Note.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Particles (Sprites)" t="Include">
+            <e p="Note on Flares.txt" t="Include" />
+          </e>
+          <e p="Readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="AimBeam.cs" t="Include" />
+            <e p="Crosshair.cs" t="Include" />
+            <e p="CustomPointer.cs" t="Include" />
+            <e p="ExampleShipControl.cs" t="Include" />
+            <e p="ParallaxLayer.cs" t="Include" />
+            <e p="PlayerControlledTurret.cs" t="Include" />
+            <e p="Projectile.cs" t="Include" />
+            <e p="PSDestroy.cs" t="Include" />
+            <e p="ShipCamera.cs" t="Include" />
+            <e p="WARNING.txt" t="Include" />
+          </e>
+          <e p="Ships and Stations" t="Include">
+            <e p="Rendering Tip.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Demigiant" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="Modules" t="Include">
+              <e p="DOTweenModuleAudio.cs" t="Include" />
+              <e p="DOTweenModulePhysics.cs" t="Include" />
+              <e p="DOTweenModulePhysics2D.cs" t="Include" />
+              <e p="DOTweenModuleSprite.cs" t="Include" />
+              <e p="DOTweenModuleUI.cs" t="Include" />
+              <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+              <e p="DOTweenModuleUtils.cs" t="Include" />
+            </e>
+            <e p="Readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="InventoryPrototype" t="Include">
+            <e p="DraggableItem.cs" t="Include" />
+            <e p="DragManager.cs" t="Include" />
+            <e p="InventoryItem.cs" t="Include" />
+            <e p="InventoryManager.cs" t="Include" />
+            <e p="InventorySlot.cs" t="Include" />
+            <e p="ItemsList.cs" t="Include" />
+            <e p="ItemsSystem.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="ShopManager.cs" t="Include" />
+          </e>
+          <e p="PlanetClicker" t="Include">
+            <e p="ButtonEvents.cs" t="Include" />
+            <e p="ButtonPointers.cs" t="Include" />
+            <e p="EventTriggerDelegate.cs" t="Include" />
+            <e p="MouseEvents.cs" t="Include" />
+            <e p="Planet.cs" t="Include" />
+            <e p="PlanetGameController.cs" t="Include" />
+          </e>
+          <e p="SpaceBattle" t="Include">
+            <e p="Missile.cs" t="Include" />
+            <e p="PlayerShip.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SimplePixelUI" t="Include">
+          <e p="fonts" t="Include">
+            <e p="Font1" t="Include">
+              <e p="license.txt" t="Include" />
+              <e p="Readme.txt" t="Include" />
+            </e>
+            <e p="Font2" t="Include">
+              <e p="license.txt" t="Include" />
+              <e p="Readme.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="EventsProject.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
