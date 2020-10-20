@@ -10,17 +10,27 @@ public class DragImage : MonoBehaviour
     [SerializeField]
     private Image image;
     
-    private void PotentialDrag()
+    public void PotentialDrag()
     {
         image.color = Color.red;
     }
 
-    private void BeginDrag()
+    public void BeginDrag()
     {
         transform.localScale = Vector3.one * 1.3f;
     }
 
-    private void Drag()
+    public void EndDrag()
+    {
+        transform.localScale = Vector3.one;
+    }
+
+    public void Drop()
+    {
+        image.color = Color.white;
+    }
+
+    public void Drag()
     {
         var pos = camera.ScreenToWorldPoint(Input.mousePosition);
         pos.z = 0.0f;
