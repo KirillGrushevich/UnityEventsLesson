@@ -72,7 +72,9 @@
      <Compile Include="Assets\2D Space Kit\Scripts\CustomPointer.cs" />
      <Compile Include="Assets\2D Space Kit\Scripts\ExampleShipControl.cs" />
      <Compile Include="Assets\2D Space Kit\Scripts\ParallaxLayer.cs" />
-     <Compile Include="Assets\Scripts\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Items.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Shop.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Controler.cs" />
      <None Include="Assets\2D Space Kit\Backgrounds\Background Tip.txt" />
      <None Include="Assets\SimplePixelUI\fonts\Font2\license.txt" />
      <None Include="Assets\2D Space Kit\Readme.txt" />

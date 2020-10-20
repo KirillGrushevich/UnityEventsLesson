@@ -56,7 +56,10 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Inventory.cs" t="Include" />
+          <e p="Inventory" t="Include">
+            <e p="Items.cs" t="Include" />
+            <e p="Shop.cs" t="Include" />
+          </e>
           <e p="LagasyInputControler.cs" t="Include" />
           <e p="MousIvents.cs" t="Include" />
           <e p="PlanetCkiker.cs" t="Include" />
