@@ -84,6 +84,14 @@
             </e>
           </e>
         </e>
+        <e p="Task" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="CustomItem.cs" t="Include" />
+            <e p="InventorySlot.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="PlayerInventory.cs" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="EventsProject.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

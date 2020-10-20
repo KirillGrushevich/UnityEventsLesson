@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26d4e2b0-d0ac-471a-93b1-71ee4811353e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Task/TaskScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Task/TaskScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +33,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Task/Scripts/CustomItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetClicker/LegacyInputController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InputSystemLesson/InputController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InputSystemLesson/MoiseEvents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -48,6 +47,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetClicker/LegacyInputController.cs" />
         <option value="$PROJECT_DIR$/Assets/InputSystemLesson/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/InputSystemLesson/MoiseEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Task/Scripts/CustomItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Task/Scripts/PlayerInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Task/Scripts/InventorySlot.cs" />
       </list>
     </option>
   </component>
@@ -93,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603179034878</updated>
       <workItem from="1603179041511" duration="6082000" />
+      <workItem from="1603194586577" duration="5218000" />
     </task>
     <servers />
   </component>
@@ -111,23 +114,26 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="258" key="RiderGenerateDialog" timestamp="1603179757888">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="0" y="257" key="RiderGenerateDialog" timestamp="1603195783580">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="0" y="257" key="RiderGenerateDialog/0.0.1440.900@0.0.1440.900" timestamp="1603195783580" />
     <state x="0" y="256" key="RiderGenerateDialog/0.23.1440.816@0.23.1440.816" timestamp="1603179086281" />
     <state x="0" y="258" key="RiderGenerateDialog/0.23.1440.822@0.23.1440.822" timestamp="1603179757888" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1603180449439">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.23.1440.822@0.23.1440.822" timestamp="1603180449439" />
-    <state x="664" y="165" width="672" height="672" key="search.everywhere.popup" timestamp="1603182416920">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="664" y="157" width="672" height="743" key="search.everywhere.popup" timestamp="1603197973638">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="664" y="157" width="672" height="743" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603197973638" />
     <state x="664" y="165" width="672" height="672" key="search.everywhere.popup/0.23.1440.814@0.23.1440.814" timestamp="1603182416920" />
     <state x="664" y="166" width="672" height="678" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1603180724062" />
   </component>
