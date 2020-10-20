@@ -21,7 +21,7 @@ public class LegacyInputController : MonoBehaviour
         pos.x = Input.GetAxis("Horizontal");
         cubeTransform.position = pos;
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && !jump)
         {
             var jumpSequence = DOTween.Sequence();
             jumpSequence.Append(cubeTransform.DOJump(pos, 1.0f, 1, 0.3f));
