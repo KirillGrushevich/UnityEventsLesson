@@ -36,6 +36,8 @@ public class Slot : MonoBehaviour, IDropHandler
         {
             eventData.pointerDrag.GetComponent<Item>().ReturnToPreviousSlot();
         }
+                
+        //не успел пофиксить баг с невозвращением объекта
         
         eventData.pointerDrag.GetComponent<Image>().raycastTarget = true;
     }
